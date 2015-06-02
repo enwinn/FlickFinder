@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33DF2BE81B1D5657005DDEB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF2BE71B1D5657005DDEB2 /* AppDelegate.swift */; };
+		33DF2BEA1B1D5657005DDEB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF2BE91B1D5657005DDEB2 /* ViewController.swift */; };
+		33DF2BED1B1D5657005DDEB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33DF2BEB1B1D5657005DDEB2 /* Main.storyboard */; };
+		33DF2BEF1B1D5657005DDEB2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33DF2BEE1B1D5657005DDEB2 /* Images.xcassets */; };
+		33DF2BF21B1D5657005DDEB2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33DF2BF01B1D5657005DDEB2 /* LaunchScreen.xib */; };
+		33DF2BFE1B1D5657005DDEB2 /* flickfinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DF2BFD1B1D5657005DDEB2 /* flickfinderTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33DF2BF81B1D5657005DDEB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33DF2BDA1B1D5657005DDEB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33DF2BE11B1D5657005DDEB2;
+			remoteInfo = flickfinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33DF2BE21B1D5657005DDEB2 /* flickfinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = flickfinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DF2BE61B1D5657005DDEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DF2BE71B1D5657005DDEB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33DF2BE91B1D5657005DDEB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33DF2BEC1B1D5657005DDEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33DF2BEE1B1D5657005DDEB2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33DF2BF11B1D5657005DDEB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		33DF2BF71B1D5657005DDEB2 /* flickfinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = flickfinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33DF2BFC1B1D5657005DDEB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33DF2BFD1B1D5657005DDEB2 /* flickfinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = flickfinderTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33DF2BDF1B1D5657005DDEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DF2BF41B1D5657005DDEB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33DF2BD91B1D5657005DDEB2 = {
+			isa = PBXGroup;
+			children = (
+				33DF2BE41B1D5657005DDEB2 /* flickfinder */,
+				33DF2BFA1B1D5657005DDEB2 /* flickfinderTests */,
+				33DF2BE31B1D5657005DDEB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33DF2BE31B1D5657005DDEB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33DF2BE21B1D5657005DDEB2 /* flickfinder.app */,
+				33DF2BF71B1D5657005DDEB2 /* flickfinderTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33DF2BE41B1D5657005DDEB2 /* flickfinder */ = {
+			isa = PBXGroup;
+			children = (
+				33DF2BE71B1D5657005DDEB2 /* AppDelegate.swift */,
+				33DF2BE91B1D5657005DDEB2 /* ViewController.swift */,
+				33DF2BEB1B1D5657005DDEB2 /* Main.storyboard */,
+				33DF2BEE1B1D5657005DDEB2 /* Images.xcassets */,
+				33DF2BF01B1D5657005DDEB2 /* LaunchScreen.xib */,
+				33DF2BE51B1D5657005DDEB2 /* Supporting Files */,
+			);
+			path = flickfinder;
+			sourceTree = "<group>";
+		};
+		33DF2BE51B1D5657005DDEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33DF2BE61B1D5657005DDEB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33DF2BFA1B1D5657005DDEB2 /* flickfinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				33DF2BFD1B1D5657005DDEB2 /* flickfinderTests.swift */,
+				33DF2BFB1B1D5657005DDEB2 /* Supporting Files */,
+			);
+			path = flickfinderTests;
+			sourceTree = "<group>";
+		};
+		33DF2BFB1B1D5657005DDEB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33DF2BFC1B1D5657005DDEB2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33DF2BE11B1D5657005DDEB2 /* flickfinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DF2C011B1D5657005DDEB2 /* Build configuration list for PBXNativeTarget "flickfinder" */;
+			buildPhases = (
+				33DF2BDE1B1D5657005DDEB2 /* Sources */,
+				33DF2BDF1B1D5657005DDEB2 /* Frameworks */,
+				33DF2BE01B1D5657005DDEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = flickfinder;
+			productName = flickfinder;
+			productReference = 33DF2BE21B1D5657005DDEB2 /* flickfinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33DF2BF61B1D5657005DDEB2 /* flickfinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33DF2C041B1D5657005DDEB2 /* Build configuration list for PBXNativeTarget "flickfinderTests" */;
+			buildPhases = (
+				33DF2BF31B1D5657005DDEB2 /* Sources */,
+				33DF2BF41B1D5657005DDEB2 /* Frameworks */,
+				33DF2BF51B1D5657005DDEB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33DF2BF91B1D5657005DDEB2 /* PBXTargetDependency */,
+			);
+			name = flickfinderTests;
+			productName = flickfinderTests;
+			productReference = 33DF2BF71B1D5657005DDEB2 /* flickfinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33DF2BDA1B1D5657005DDEB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Eric N. Winn";
+				TargetAttributes = {
+					33DF2BE11B1D5657005DDEB2 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					33DF2BF61B1D5657005DDEB2 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 33DF2BE11B1D5657005DDEB2;
+					};
+				};
+			};
+			buildConfigurationList = 33DF2BDD1B1D5657005DDEB2 /* Build configuration list for PBXProject "flickfinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33DF2BD91B1D5657005DDEB2;
+			productRefGroup = 33DF2BE31B1D5657005DDEB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33DF2BE11B1D5657005DDEB2 /* flickfinder */,
+				33DF2BF61B1D5657005DDEB2 /* flickfinderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33DF2BE01B1D5657005DDEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DF2BED1B1D5657005DDEB2 /* Main.storyboard in Resources */,
+				33DF2BF21B1D5657005DDEB2 /* LaunchScreen.xib in Resources */,
+				33DF2BEF1B1D5657005DDEB2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DF2BF51B1D5657005DDEB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33DF2BDE1B1D5657005DDEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DF2BEA1B1D5657005DDEB2 /* ViewController.swift in Sources */,
+				33DF2BE81B1D5657005DDEB2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33DF2BF31B1D5657005DDEB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33DF2BFE1B1D5657005DDEB2 /* flickfinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33DF2BF91B1D5657005DDEB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33DF2BE11B1D5657005DDEB2 /* flickfinder */;
+			targetProxy = 33DF2BF81B1D5657005DDEB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33DF2BEB1B1D5657005DDEB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33DF2BEC1B1D5657005DDEB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33DF2BF01B1D5657005DDEB2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33DF2BF11B1D5657005DDEB2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33DF2BFF1B1D5657005DDEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33DF2C001B1D5657005DDEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33DF2C021B1D5657005DDEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flickfinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33DF2C031B1D5657005DDEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = flickfinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33DF2C051B1D5657005DDEB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = flickfinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flickfinder.app/flickfinder";
+			};
+			name = Debug;
+		};
+		33DF2C061B1D5657005DDEB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = flickfinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/flickfinder.app/flickfinder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33DF2BDD1B1D5657005DDEB2 /* Build configuration list for PBXProject "flickfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DF2BFF1B1D5657005DDEB2 /* Debug */,
+				33DF2C001B1D5657005DDEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33DF2C011B1D5657005DDEB2 /* Build configuration list for PBXNativeTarget "flickfinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DF2C021B1D5657005DDEB2 /* Debug */,
+				33DF2C031B1D5657005DDEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		33DF2C041B1D5657005DDEB2 /* Build configuration list for PBXNativeTarget "flickfinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33DF2C051B1D5657005DDEB2 /* Debug */,
+				33DF2C061B1D5657005DDEB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33DF2BDA1B1D5657005DDEB2 /* Project object */;
+}
